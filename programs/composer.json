@@ -1,0 +1,14 @@
+{
+  "name": "majsta/programs",
+  "description": "Description of your file",
+  "type": "library",
+  "version": "1.0.0",
+  "include": [
+    "src/*.php"
+  ],
+  "autoload": {
+    "psr-4": {
+      "majsta\\": "src/"
+    }
+  }
+}
